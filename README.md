@@ -8,8 +8,8 @@ In this project 2 agents will be trained to play tennis. Each agent recieves 0.1
 The observation space space consists of 24 different states for each agent which consists of position and velocity of the ball and the racket. For the action space there are two continous actions between -1 and +1 that corresponds to moving back and forth and jumping.
 
 In the below gif we can see the 20 different agents and their arms and their respective target zones.
-#![hippo](https://video.udacity-data.com/topher/2018/June/5b1ea778_reacher/reacher.gif)
-!(https://github.com/erab17/RL_Tennis_MA/blob/main/image.png)
+
+![image](https://github.com/erab17/RL_Tennis_MA/blob/main/image.png)
 
 If no time step restriction is set the agent will run for about 1000 timesteps before terminating.
  
