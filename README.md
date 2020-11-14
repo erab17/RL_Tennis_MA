@@ -19,13 +19,13 @@ https://github.com/udacity/deep-reinforcement-learning#dependencies
 2. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
 * Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
-* Mac OSX: click here
-* Windows (32-bit): click here
-* Windows (64-bit): click here
+* Mac OSX: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+* Windows (32-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+* Windows (64-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
 
 3. Place the file in the repo.
 
-4. The following libraries need to imported in order to run all the cells in the notebook
+4. The following libraries need to be installed and imported in order to run all the cells in the notebook
 * UnityEnvironment from unityagents  
 * numpy  
 * random  
@@ -37,16 +37,16 @@ https://github.com/udacity/deep-reinforcement-learning#dependencies
 * copy
 
 ## Instructions
-To run the agent in the environment and using the different methods one just have to sequantially execute the cells in the notebook. 
+To run the agent in the environment and using the different methods one just have to sequantially execute the cells in the notebook. The notebook can be opened with vscode, jupyter lab or jupyter notebook.
 
-The function "ddpg" runs the training phase of the networks if nothing else is specified it will for 400 episodes. Before this function is run one also needs to instatiate the StoreResults class which helps with saving some results from the run. In addition the Agent has to be instatiated as well before running the training function.
-
-If one wants to use the pretrained network that accomplist the target of achieve +30 reward over all agents for a rolling mean over 100 episodes the file "checkpoint_actor.pth" as to be loaded.
+The algorithm will for about 2300 episodes with the current settings.
 
 Files in the repo:
-* Continuous_Control.ipynb (Notebook for running and training the agents)
-* checkpoint_actor.pth (Saved weights for the actor network)
-* checkpoint_critic.pth (Saved weigts for the critic network)
-* file.pkl (Saved different model configurations and resuts)
+* Tennis.ipynb (Notebook for running and training the agents)
+* checkpoint_actor_0.pth (Saved weights for agent 1's actor network)
+* checkpoint_actor_1.pth (Saved weights for agent 2's actor network)
+* checkpoint_critic_0.pth (Saved weights for agent 1's critic network)
+* checkpoint_critic_1.pth (Saved weights for agent 2's critic  network)
+* file.pkl (Saved scores per episode and rolling score)
 
 
