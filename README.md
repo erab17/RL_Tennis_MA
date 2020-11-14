@@ -7,13 +7,10 @@ In this project 2 agents will be trained to play tennis. Each agent recieves 0.1
 
 The observation space space consists of 24 different states for each agent which consists of position and velocity of the ball and the racket. For the action space there are two continous actions between -1 and +1 that corresponds to moving back and forth and jumping.
 
-In the below gif we can see the 20 different agents and their arms and their respective target zones.
-
+In the below image we can see a snaphot of the enviroment with the two agents playing tennis.
 ![image](https://github.com/erab17/RL_Tennis_MA/blob/main/image.png)
 
-If no time step restriction is set the agent will run for about 1000 timesteps before terminating.
- 
-The target for the agents is to achieve a rolling reward over 100 episodes of 30 or more of an average of all the agents.
+The target for the project is to achieve a mean rolling reward over 100 episodes of 0.5 or more of the maximum of one agents score during an episode.
 
 ## Getting Started
 1. For setting up the python environment follow the instructions in this link:
@@ -21,7 +18,7 @@ https://github.com/udacity/deep-reinforcement-learning#dependencies
 
 2. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
-* Linux: click here
+* Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
 * Mac OSX: click here
 * Windows (32-bit): click here
 * Windows (64-bit): click here
